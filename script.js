@@ -1,8 +1,11 @@
 //your JS code here. If required.
-let obj={
-	name:"montu",
-}
+const student = {
+  name: "John",
+};
+
 function getKeys(obj) {
   return Object.keys(obj);
 }
-console.log(getKeys(student));
+
+window.student = student;
+window.getKeys = getKeys;
